@@ -1,0 +1,28 @@
+{
+  "name": "tailwindcss-responsive-embed",
+  "version": "0.1.0",
+  "description": "Responsive Embed plugin for tailwindcss framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drdogbot7/tailwind-responsive-embed.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "plugin",
+    "tailwindcss-plugin"
+  ],
+  "author": "drdogbot7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drdogbot7/tailwind-responsive-embed/issues"
+  },
+  "homepage": "https://github.com/drdogbot7/tailwind-responsive-embed#readme",
+  "dependencies": {
+    "tailwind-aspect-ratio": "^1.0.2"
+  }
+}
