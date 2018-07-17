@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-responsive-embed",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Responsive Embed plugin for tailwindcss framework",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/drdogbot7/tailwind-responsive-embed#readme",
   "dependencies": {
-    "tailwind-aspect-ratio": "^1.0.2"
+    "tailwindcss-aspect-ratio": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "^5.0.1",
