@@ -70,6 +70,6 @@ This configuration would create the following classes:
 
 ```html
 <div class="embed-responsive aspect-ratio-4/3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J---aiyznGQ></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J---aiyznGQ"></iframe>
 </div>
 ```
