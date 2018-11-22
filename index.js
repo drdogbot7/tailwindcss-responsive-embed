@@ -1,6 +1,6 @@
 module.exports = function () {
-  return function ({ addComponents }) {
-    addComponents({
+  return function ({ addUtilities }) {
+    addUtilities({
       '.embed-responsive': {
         position: 'relative',
         display: 'block',
