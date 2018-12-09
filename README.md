@@ -16,15 +16,17 @@ npm install --save-dev tailwindcss-responsive-embed
 Responsive embed classes won't do much by themselves, so require `tailwindcss-aspect-ratio` also. It shouldn't matter what order they are included.
 
 ```js
-require("tailwindcss-responsive-embed")();
-require("tailwindcss-aspect-ratio")({
-  ratios: {
-    square: [1, 1],
-    "16/9": [16, 9],
-    "4/3": [4, 3],
-    "21/9": [21, 9]
-  }
-});
+plugins: [
+  require("tailwindcss-responsive-embed")(),
+  require("tailwindcss-aspect-ratio")({
+    ratios: {
+      square: [1, 1],
+      "16/9": [16, 9],
+      "4/3": [4, 3],
+      "21/9": [21, 9]
+    }
+  }),
+],
 ```
 
 This configuration would create the following classes:
