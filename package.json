@@ -3,6 +3,10 @@
   "version": "1.2.0",
   "description": "Responsive Embed plugin for tailwindcss framework",
   "main": "index.js",
+  "contributors": [
+    "Jeremy Mullis",
+    "Jose Vicente"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +20,6 @@
     "plugin",
     "tailwindcss-plugin"
   ],
-  "author": "Jose Vicente",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/drdogbot7/tailwind-responsive-embed/issues"
@@ -24,15 +27,15 @@
   "homepage": "https://github.com/drdogbot7/tailwind-responsive-embed#readme",
   "dependencies": {
     "tailwindcss": "^1.2.0",
-    "tailwindcss-aspect-ratio": "^1.0.1"
+    "tailwindcss-aspect-ratio": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.0.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "prettier-eslint": "^8.8.2"
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier-eslint": "^9.0.1"
   }
 }
