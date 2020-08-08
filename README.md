@@ -61,17 +61,21 @@ This configuration would create the following classes:
   }
 }
 
+// tailwindcss-aspect-ratio generates these
+.aspect-ratio-none {
+  padding-bottom: 0;
+}
 .aspect-ratio-square {
-  padding-top: 100%;
+  padding-bottom: 100%;
 }
-.aspect-ratio-16/9 {
-  padding-top: 56.25%;
+.aspect-ratio-16\/9 {
+  padding-bottom: 56.25%;
 }
-.aspect-ratio-4/3 {
-  padding-top: 75%;
+.aspect-ratio-4\/3 {
+  padding-bottom: 75%;
 }
-.aspect-ratio-21/9 {
-  padding-top: 42.86%;
+.aspect-ratio-21\/9 {
+  padding-bottom: 42.86%;
 }
 ```
 
