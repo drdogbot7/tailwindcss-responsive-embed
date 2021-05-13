@@ -1,6 +1,8 @@
 # tailwind-responsive-embed
 
-responsive embed component for tailwindcss, based on [bootstrap's responsive embed](https://getbootstrap.com/docs/4.1/utilities/embed/) which is itself credited to Nicolas Gallagher and [SUIT CSS](https://suitcss.github.io/). This will add the `.embed-responsive` and `.embed-responsive-item` components to your css.
+**I recommend switching to [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) instead of using this plugin. This plugin DOES NOT WORK with @tailwindcss/aspect-ratio.**  If you are _already_ using this plugin on a site without issue… that's probably fine.
+
+Responsive embed component for tailwindcss, based on [bootstrap's responsive embed](https://getbootstrap.com/docs/4.1/utilities/embed/) which is itself credited to Nicolas Gallagher and [SUIT CSS](https://suitcss.github.io/). This will add the `.embed-responsive` and `.embed-responsive-item` components to your css.
 
 This plugin relies on [webdna/tailwindcss-aspect-ratio](https://github.com/webdna/tailwindcss-aspect-ratio) to create the aspect ratio utility classes.
 
@@ -45,12 +47,13 @@ This configuration would create the following classes:
   height: 0;
   padding: 0;
   overflow: hidden;
-
-  .embed-responsive-item,
-  iframe,
-  embed,
-  object,
-  video {
+ }
+ 
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
     position: absolute;
     top: 0;
     left: 0;
